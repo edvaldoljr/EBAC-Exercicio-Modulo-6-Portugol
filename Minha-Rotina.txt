@@ -1,0 +1,41 @@
+ Algoritmo Minha Rotina
+
+ INICIO
+    1. Acordar
+        1. Orar deitado
+    2. Levantar
+        1. Arrumar a cama
+        2. abrir a porta
+    3. Ir para o banheiro
+        1. Abrir o box e entrar
+        2. Ligar o chuveiro
+        3. Tomar um banho gelado
+        4. Escovar os dentes
+        5. Desligar o cheveiro
+        6. abrir o box e sair
+        7. Se secar
+        8. Trocar de roupa
+        9. Sair do banheiro
+    4. Ir para a cozinha
+        1. Beber água
+        2. Preparar um café da manhã
+        3. Tomar o café da manhã
+    5. Fazer chekin da academia
+        1. Ir malhar
+        2. Fazer esteira ou bicicleta
+        3. Fazer o treino do dia
+        4. Ir para casa
+    6. Preparar o pós treino e comer
+    7. Ir para o quarto
+        1. Ligar o pc
+        2. Estudar
+        3. Ler email
+        4. Cuidar das redes sociais
+        5. estudar
+        6. Descansar
+        7. Ir para cozinha
+    8. Prepara a janta e comer
+    9. Ir para o banheiro tomar banho
+    10. Durmir
+FIM
+
