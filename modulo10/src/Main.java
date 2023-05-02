@@ -23,9 +23,6 @@ public class Main {
             total = total + nota;
             media = total / 4;
         }
-
-        do {
-
             //Utilizando IF e ELSE IF para comparar a notas
             if (media >= 7) {
                 System.out.println("----- ALUNO APROVADO -----");
@@ -38,8 +35,6 @@ public class Main {
             System.out.println("Deseja verificar outra nota: SIM/NAO");
             resposta = scanner.nextLine();
 
-        } while (resposta.equalsIgnoreCase("sim"));
-
-            System.out.println("Obrigado");
         }
+
     }
