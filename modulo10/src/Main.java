@@ -6,20 +6,30 @@ public class Main {
         //Instanciando a Classe Scanner
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("--- INICIANDO SISTEMA DE NOTAS --- \n");
+        double nota = 0;
+        double total = 0;
+        double media = 0;
         String resposta = "";
 
-        do {
+        System.out.println("--- INICIANDO SISTEMA DE NOTAS --- \n");
+
+        for (int i = 1; i >= 4; i++) {
+
             //Mostrando no console a mensagem
-            System.out.println("Digite  a nota do aluno");
+            System.out.println("Digite  a" + i + "° nota do aluno");
 
             //Lendo a nota
-            int nota = scanner.nextInt();
+            nota = scanner.nextInt();
+            total = total + nota;
+            media = total / 4;
+        }
+
+        do {
 
             //Utilizando IF e ELSE IF para comparar a notas
-            if (nota >= 7) {
+            if (media >= 7) {
                 System.out.println("----- ALUNO APROVADO -----");
-            } else if (nota >= 5) {
+            } else if (media >= 5) {
                 System.out.println("----- ALUNO EM RECUPERAÇÃO -----");
             } else {
                 System.out.println("----- ALUNO REPROVADO -----");
@@ -28,7 +38,7 @@ public class Main {
             System.out.println("Deseja verificar outra nota: SIM/NAO");
             resposta = scanner.nextLine();
 
-        } while (resposta.equals("sim"));
+        } while (resposta.equalsIgnoreCase("sim"));
 
             System.out.println("Obrigado");
         }
